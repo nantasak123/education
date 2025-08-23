@@ -1,0 +1,13 @@
+.band-logos{
+    text-align: center;
+    padding: 5% 10%;
+}
+.band-logos>h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #111116;
+}
+.band-logos>img{
+    margin: 30px 1%;
+}
