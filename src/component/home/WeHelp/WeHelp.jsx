@@ -26,11 +26,11 @@ function WeHelp(){
                 <p>
                     Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before.
                 </p>
-                <Button text="Get Started Today" color="orang"/>
+                <Button status="show" text="Get Started Today" color="orang"/>
             </div>
 
         </div>
     )
-}
+}  
 
 export default WeHelp;

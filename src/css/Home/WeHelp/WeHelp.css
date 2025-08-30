@@ -16,6 +16,7 @@
     border-radius: 50%;
     background-color: #D4EFF6;
     position: relative;
+    aspect-ratio: 1/1;
 }
 .we-help-cicle-1>h1{
     border-radius: 50%;
@@ -63,4 +64,21 @@
     line-height: 36px;
     color: #6F6F76;
 }
-
+/* mobile style */
+@media (max-width:450px){
+    .we-help{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .we-help-1{
+        scale: .5;
+    }
+    .we-help-2{
+        width: 100%;
+        margin: 0;
+    }
+    .we-help-2>h2{
+        font-size: 24px;
+        line-height: 34px;
+    }
+}

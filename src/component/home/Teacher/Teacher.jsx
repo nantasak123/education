@@ -25,7 +25,7 @@ function teacherProfile(item){
         </div>
     )
 }
-
+ 
 function Teacher(){
     let teacherData = [
         {
@@ -52,7 +52,7 @@ function Teacher(){
                 <h2>
                     Intriduce with Our Famous Teacher
                 </h2>
-                <Button text="View All Teachers" color="orang" />
+                <Button status='show' text="View All Teachers" color="orang" />
             </div>
             <div className="teacher-container">
                 {
@@ -60,7 +60,7 @@ function Teacher(){
                 }
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Teacher;

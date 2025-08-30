@@ -48,9 +48,7 @@ function Testimonial(){
     }
 
     function checkStatus(status){
-        if(status == true){
-            return
-        }else{
+        if(status == false){
             setBtnLeft(!btnLeft),setBtnRight(!btnRight)
         }
     }

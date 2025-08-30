@@ -1,5 +1,6 @@
 // image file
 import ctaArrow from "../../../assets/CTA/cta-arrow.svg"
+import downArrow from "../../../assets/CTA/down-arrow.svg"
 // css file 
 import "../../../css/Home/CTA/CTA.css"
 //  component 
@@ -12,8 +13,9 @@ function CTA(){
                 <h2>
                     Create Free Account & Get Register
                     <img src={ctaArrow} alt="" />
+                    <img src={downArrow} id="cta-mobile-image" alt="" />
                 </h2>
-                <Button text="Register Now" color="orang"/>
+                <Button status='show' text="Register Now" color="orang"/>
             </div>
             <div className="cta-2"></div>
         </div>

@@ -53,7 +53,7 @@ function HeaderContainer(){
                     Credibly redefine distinctive total linkage vis-a-vis multifunc
                     data. Phosfluorescently impact goal-oriented strategic                   
                 </p>
-                <Button text="Discover More" color="orang" />
+                <Button status="show" text="Discover More" color="orang" />
             </div>
             <div className="header-container-2">
                 <div className="header-container-2-box">

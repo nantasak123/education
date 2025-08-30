@@ -43,7 +43,7 @@ function Blog(){
                         deoartment.map(blogCard)
                     }
                 </div>
-                <Button text="View All Department" color="orang" />
+                <Button status='show' text="View All Department" color="orang" />
             </div>
             
         </div>

@@ -145,3 +145,39 @@
 .member4{
     right: 15px;
 }
+/* mobile header style */
+@media (max-width:450px) {
+    .header-container{
+        flex-direction: column;
+        
+    }
+    /* container 2 */
+    .header-container-2{
+        order: 1;
+        height: 300px;
+    }
+    .header-container-2-box{
+        height: 200px;
+        width: 200px;
+    }
+    .message-box,
+    .member-box{
+        scale: .5;
+    }
+    /* container 1 */
+    .header-container-1{
+        order: 2;
+    }
+    .header-container-1>h1{
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 160px;
+    }
+    .header-container-1>p{
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .button-show{
+        display: inline-block;
+    }
+}

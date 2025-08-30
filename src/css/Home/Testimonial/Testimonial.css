@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     height: 500px;
+    width: 100%;
 }
 /* container-1 */
 .testimonial-container-1{
@@ -74,7 +75,7 @@
 
 /* review box */
 .review-0{
-    position: absolute;
+    position: relative;
     background-color: #FFFFFF;
     box-shadow: 0 15px 35px 0 #0000000D;
     color: #6F6F76;
@@ -124,4 +125,23 @@
     font-size: 18px;
     line-height: 36px;
     color: #6F6F76;
+}
+/* mobile style */
+@media (max-width:450px){
+    .testimonial{
+        flex-direction: column;
+        height: fit-content;
+        gap: 100px;
+    }
+    .testimonial-container-1{
+        order: 2;
+    }
+    .testimonial-container-2>h2{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .review-button{
+        scale: .5;
+        transform-origin: right;
+    }
 }
