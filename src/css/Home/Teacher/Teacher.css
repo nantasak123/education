@@ -9,7 +9,7 @@
 }
 .teacher-topic>h2{
     max-width: 370px;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     font-size: 40px;
     line-height: 58px;
 }
@@ -18,7 +18,6 @@
     display: flex;
     gap: 5%;
     margin: 5% 0;
-
 }
 .teacher-profile{
     flex: 1;
@@ -37,16 +36,16 @@
 }
 .teacher-profile>h3{
     margin-top: 20px;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large);
     line-height: 34px;
-    color: #3B3B3B;
+    color: var(--font-color-base-2);
 }
 .teacher-profile>p{
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: var(--font-weight-thin);
+    font-size: var(--font-size-paragraph);
     line-height: 32px;
-    color: #6F6F76;
+    color: var(--font-color-paragraph);
 }
 .teacher-social{
     display: flex;
@@ -61,7 +60,7 @@
         gap: 20px;
     }
     .teacher-topic>h2{
-        font-size: 24px;
+        font-size: var(--font-size-medium);
         line-height: 34px;
         max-width: 250px;
     }

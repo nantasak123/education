@@ -3,17 +3,17 @@
     padding: 5% 10%;
 }
 .band-logos>h1{
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     font-size: 40px;
     line-height: 58px;
-    color: #111116;
+    color: var(--font-color-base-2);
 }
 .band-logos>img{
     margin: 30px 1%;
 }
 @media (max-width:450px){
     .band-logos>h1{
-        font-size: 24px;
+        font-size: var(--font-size-medium);
         line-height: 34px;
         margin-bottom: 20px;
     }

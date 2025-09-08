@@ -16,9 +16,9 @@
     text-decoration: none;
 }
 .nav-link{
-    font-size: 18px;
-    font-weight: 400;
-    color: black;
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-thin);
+    color: var(--font-color-base-2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@
 .no-underline>hr{
     width: 50%;
     border: none;
-    border-bottom: 1.4px solid #FFBE48;
+    border-bottom: 1.4px solid var(--bg-color-base-1);
 }
 .mobile-bar,
 .mobile-menu-box-open,
@@ -48,7 +48,7 @@
     }   
     .menu-open{
         z-index: 20;
-        background-color: #FFA502;
+        background-color: var(--bg-color-base-1);
     }
     .mobile-menu-box-close{
         display: none;
@@ -70,13 +70,13 @@
         border-bottom-right-radius: 20px;
         z-index: 10;
         height: 130px;
-        background-color: #FFA502;
+        background-color: var(--bg-color-base-1);
         box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.388);
         
     }
     .no-underline{
-        font-size: 14px;
+        font-size: var(--font-weight-smaller);
         font-weight: 500;
-        color: black;
+        color: var(--font-color-base-2);
     }
 }

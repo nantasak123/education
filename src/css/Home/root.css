@@ -1,0 +1,22 @@
+:root{
+    /* font color */
+    --font-color-base-1: #ffff;
+    --font-color-base-2: #161311;
+    --font-color-base-3: #B3B3B3;
+    --font-color-paragraph: #6F6F76;
+    /* BG color */
+    --bg-color-base-1: #FFA502;
+    --bg-color-base-2: #FFFBF4;
+    --bg-color-base-3: #2A2A31;
+    /* font weight */
+    --font-weight-bold: 700;
+    --font-weight-medium: 600;
+    --font-weight-thin: 400;
+    /* font size */
+    --font-size-largest: 40px;
+    --font-size-large: 30px;
+    --font-size-medium: 24px;
+    --font-size-small: 16px;
+    --font-size-smaller: 14px;
+    --font-size-paragraph: 18px;
+}
